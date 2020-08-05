@@ -10,7 +10,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Sreenivas \n Welcome to IOS !")
+        
+        VStack(){
+            
+            Profile()
+            
+            
+        Text("SteveBrains")
+            .font(.title)
+            HStack{
+                   Text("Sreenivas K")
+                       .font(.subheadline)
+                           Text("Love with Code")
+                           .font(.subheadline)
+            }
+            HStack{
+        Text("Love to code 💖")
+            .font(.subheadline)
+                Text("IOS and Android Dev")
+                .font(.subheadline)
+            }
+            HStack{
+                       Text("👨🏻‍💻")
+                       .font(.title)
+            }.padding()
+        }
+        
     }
 }
 
